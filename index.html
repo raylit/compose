@@ -36,7 +36,7 @@
 	font-size: 0.8em; font-weight: 100; color:white;
 	position: absolute; top: 42px; left: 1325px;}
 
-	#section1{height: 900px;}
+	#section1{height: 800px;}
 	#section1 h1{font-family: 'Rozha One', serif;
 	font-size: 3em; font-weight: 400; color:white;
 	position: absolute; top: 250px; left: 345px;}
@@ -58,29 +58,48 @@
 	color:black;
 	position: absolute; top: 375px; left: 1005px;}
 
-	#section3{height: 900px;}
-	#section3 h1{font-family: 'Rozha One', serif;
+	#section3{height: 1580px;}
+	.head3 h1{font-family: 'Rozha One', serif;
 	font-size: 3.2em; font-weight: 500;
 	text-decoration: underline; color:white;
-	position: absolute; top: 45px; left: 255px;}
-	#section3 h2{font-family: 'Rozha One', serif;
+	position: absolute; top: 48px; left: 255px;}
+	.head3 {height: 180px; background-color:#111;}
+	.box1 {float:left; width:360px; height:1400px; background-color:#FFE6E6;}
+	.box1 h1 {width:360px; height:70px; background-color:#FF5500;
+	font-family: 'Rozha One', serif; line-height: 2.6em;
 	font-size: 1.6em; font-weight: 400;
-	text-decoration: underline; color:black;
-	position: absolute; top: 190px; left: 120px;}
-	#section3 h3{font-family: 'Rozha One', serif;
-	font-size: 1.6em; font-weight: 400;
-	text-decoration: underline; color:black;
-	position: absolute; top: 190px; left: 492px;}
-	#section3 h4{font-family: 'Rozha One', serif;
-	font-size: 1.6em; font-weight: 400;
-	text-decoration: underline; color:black;
-	position: absolute; top: 190px; left: 835px;}
-	#section3 h5{font-family: 'Rozha One', serif;
-	font-size: 1.6em; font-weight: 400;
-	text-decoration: underline; color:black;
-	position: absolute; top: 190px; left: 1158px;}
+	text-decoration: underline; color:black; text-align:center}
 
-	#section4{height: 670px;}
+	.box2 {float:left; width:360px; height:1400px; background-color:#FFFFC2;}
+	.box2 h1 {width:360px; height:70px; background-color:#FFFF00;
+	font-family: 'Rozha One', serif; line-height: 2.6em;
+	font-size: 1.6em; font-weight: 400;
+	text-decoration: underline; color:black; text-align:center}
+
+	.box3 {float:left; width:360px; height:1400px; background-color:#CAF4FF;}
+	.box3 h1 {width:360px; height:70px; background-color:#00CFFF;
+	font-family: 'Rozha One', serif; line-height: 2.6em;
+	font-size: 1.6em; font-weight: 400;
+	text-decoration: underline; color:black; text-align:center}
+	.box4 {float:left; width:360px; height:1400px; background-color:#C7C7FF;}
+	.box4 h1 {width:360px; height:70px; background-color:#641DFF;
+	font-family: 'Rozha One', serif; line-height: 2.6em;
+	font-size: 1.6em; font-weight: 400;
+	text-decoration: underline; color:black; text-align:center}
+
+	.box11 {width:285px;height:1330px; background-color:white;}
+	.box11 h1 {background-color:white; width:285px; height:68px;}
+
+	#image {width:285px;height:245px; padding-bottom:68px;}
+	#image p1{font-family: 'Nanum Gothic', sans-serif;
+	font-size: 1em; font-weight: 700; line-height: 1.25em;
+	text-align:left; padding-left:0.5em; color:white;
+	position:absolute; top:160px;}
+	#image p2{font-family: 'Nanum Gothic', sans-serif;
+	font-size: 1em; font-weight: 200; line-height: 1.7em;
+	text-align:left; padding-left:0.5em; color:white;
+	position:absolute; top:182px;}
+
 	#section5{height: 900px;}
 	#section5 p{width: 500px; text-align: center;
 	font-family: 'Nanum Gothic', sans-serif;
@@ -103,6 +122,10 @@
 	position: absolute; top: 178px; left: 465px;}
 	.logo{width:300px; position: absolute;
 	top:20px; left:100px;}
+
+	#footer{height:180px; font-family: 'Rozha One', serif;
+	font-size: 0.8em; font-weight: 100; color:white;
+	text-align:center;}
 </style>
 <body>
 	<body bgcolor="#000000"> 
@@ -139,7 +162,7 @@
 			</a>
 		</h8>
 	</header>
-	<div id="section1">
+	<section id="section1">
 		<img src="web-01.png">
 		<h1>
 			Rock Band of
@@ -150,8 +173,8 @@
 		<h3>
 			Since 1980
 		</h3>
-	</div>
-	<div id="section2">
+	</section>
+	<section id="section2">
 		<img src="web-02.png">
 		<h1>
 			Introduce
@@ -180,29 +203,223 @@
 			<br>
 			한경대학교 학우분이라면 누구든 환영합니다.
 		</p>
-	</div>
-	<div id="section3">
-		<img src="web-03.png">
-		<h1>
-			Members
-		</h1>
-		<h2>
-			Guitarists
-		</h2>
-		<h3>
-			Bassists
-		</h3>
-		<h4>
-			Drummers
-		</h4>
-		<h5>
-			Vocalists & Extra
-		</h5>
-	</div>
-	<div id="section4">
-		<img src="web-04.png">
-	</div>
-	<div id="section5">
+	</section>
+	<section id="section3">
+		<div class="head3">
+			<h1>
+				Member list
+			</h1>
+		</div>
+		<div class="box1">
+			<h1>
+				Guitarlist
+			</h1>
+			<div class="box11">
+				<h1></h1>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						김진영
+					</p1>
+					<p2>
+						Guitar
+						<br>
+						38기 / 화학공학과 / 부회장
+					</p2>
+				</div>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						양민혁
+					</p1>
+					<p2>
+						Guitar / Synthe.
+						<br>
+						38기 / 미디어문예창작학과
+					</p2>
+				</div>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						김지한
+					</p1>
+					<p2>
+						Guitar
+						<br>
+						39기 / 영어학과 / 신입생
+					</p2>
+				</div>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						김도영
+					</p1>
+					<p2>
+						Guitar
+						<br>
+						39기 / 디자인학과 / 신입생
+					</p2>
+				</div>
+			</div>
+		</div>
+		<div class="box2">
+			<h1>
+				Bassist
+			</h1>
+			<div class="box11">
+				<h1></h1>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						장성훈
+					</p1>
+					<p2>
+						Bass / Vocal
+						<br>
+						35기 / 디자인학과 / 회장
+					</p2>
+				</div>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						박주희
+					</p1>
+					<p2>
+						Bass
+						<br>
+						38기 / 베이스 / 부회장
+					</p2>
+				</div>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						박성호
+					</p1>
+					<p2>
+						Bass
+						<br>
+						38기 / 토목안전환경공학과
+					</p2>
+				</div>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						문띵건
+					</p1>
+					<p2>
+						Bass
+						<br>
+						39기 / 전기전자제어공학과 / 신입생
+					</p2>
+				</div>
+			</div>
+		</div>
+		<div class="box3">
+			<h1>
+				Drummer
+			</h1>
+			<div class="box11">
+			<h1></h1>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						최민구
+					</p1>
+					<p2>
+						Drum
+						<br>
+						33기 / 전기전자제어공학과
+					</p2>
+				</div>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						홍재영
+					</p1>
+					<p2>
+						Drum / Guitar / Vocal
+						<br>
+						38기 / 식물생명환경과학과
+					</p2>
+				</div>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						최혜빈
+					</p1>
+					<p2>
+						Drum
+						<br>
+						38기 / 동물생명환경과학과
+					</p2>
+				</div>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						심복기
+					</p1>
+					<p2>
+						Drum
+						<br>
+						39기 / 전기전자제어공학과
+					</p2>
+				</div>
+			</div>
+		</div>
+		<div class="box4">
+			<h1>
+				Vocalist & Extra
+			</h1>
+			<div class="box11">
+				<h1></h1>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						유상중
+					</p1>
+					<p2>
+						Vocal / Guitar
+						<br>
+						38기 / 전기전자제어공학과
+					</p2>
+				</div>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						장은경
+					</p1>
+					<p2>
+						Vocal / Bass
+						<br>
+						38기 / 전기전자제어공학과
+					</p2>
+				</div>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						성유지
+					</p1>
+					<p2>
+						Synthe.
+						<br>
+						38기 / 식물생명환경과학과
+					</p2>
+				</div>
+				<div id="image">
+					<img src="dehet.png">
+					<p1>
+						김해수
+					</p1>
+					<p2>
+						Synthe.
+						<br>
+						39기 / 컴퓨터공학과 / 신입생
+					</p2>
+			    </div>
+			</div>
+		</div>
+	</section>
+	<section id="section5">
 		<img src="web-05.png">
 		<div class="cainfoot">
 			<img src="cain-logo.png" class="logo">
@@ -227,6 +444,13 @@
 			Youtube
 			</a>
 		</h3>
-	</div>
+	</section>
+	<footer id="footer">
+		<h1>
+			<br>
+			Rock Band of HKNU
+			<br>
+			CAIN
+	</footer>
 </body>
 </html>
