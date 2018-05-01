@@ -3,6 +3,9 @@
 	div, section{position: relative; width: 1440px; margin:auto;}
 	header{width: 1440px; height:100px; margin:auto;}
 
+	a:link, a:active, a:visited, a:hover{ text-decoration:  none; }
+	a:link, a:active, a:visited { color: white; }
+
 	#header h1{font-family: 'Quicksand', sans-serif;
 	font-size: 1em; font-weight: 100; color:white;
 	position: absolute; top: 41px; left: 130px;}
