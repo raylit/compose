@@ -2,135 +2,14 @@
 <html>
 <head>
 	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Quicksand|Rozha+One" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta charset="utf-8">
+	<meta property="og.image" content="thumbnail.png">
+	<meta property="og.title" content="CAIN, Rock band of HKNU"
+	<meta property="og.description" content="국립 한경대학교의 록 밴드 동아리, 카인을 소개합니다.">
     <title>Rock Band of HKNU
     </title>
 </head>
-<style>
-	*{padding:0; font-weight: 400; margin: auto;}
-	div, section{position: relative; width: 1440px; margin:auto;}
-	header{width: 1440px; height:100px; margin:auto;}
-
-	#header h1{font-family: 'Quicksand', sans-serif;
-	font-size: 1em; font-weight: 100; color:white;
-	position: absolute; top: 41px; left: 130px;}
-	#header h2{font-family: 'Quicksand', sans-serif;
-	font-size: 0.6em; font-weight: 100; color:white;
-	position: absolute; top: 47px; left: 174px;}
-	#header h3{font-family: 'Rozha One', serif;
-	font-size: 1em; font-weight: 100; color:white;
-	position: absolute; top: 40px; left: 630px;}
-	#header h4{font-family: 'Rozha One', serif;
-	font-size: 1em; font-weight: 100; color:white;
-	position: absolute; top: 40px; left: 727px;}
-	#header h5{font-family: 'Rozha One', serif;
-	font-size: 1em; font-weight: 100; color:white;
-	position: absolute; top: 40px; left: 811px;}
-	#header h6{font-family: 'Rozha One', serif;
-	font-size: 0.8em; font-weight: 100; color:white;
-	position: absolute; top: 42px; left: 1140px;}
-	#header h7{font-family: 'Rozha One', serif;
-	font-size: 0.8em; font-weight: 100; color:white;
-	position: absolute; top: 42px; left: 1240px;}
-	#header h8{font-family: 'Rozha One', serif;
-	font-size: 0.8em; font-weight: 100; color:white;
-	position: absolute; top: 42px; left: 1325px;}
-	.head {width:1440px; height:100px; margin:auto;}
-
-	#section1{height: 800px;}
-	#section1 h1{font-family: 'Rozha One', serif;
-	font-size: 3em; font-weight: 400; color:white;
-	position: absolute; top: 250px; left: 345px;}
-	#section1 h2{font-family: 'Rozha One', serif;
-	font-size: 3em; font-weight: 400; color:white;
-	position: absolute; top: 310px; left: 456px;}
-	#section1 h3{font-family: 'Rozha One', serif;
-	font-size: 1.6em; font-weight: 400; color:white;
-	position: absolute; top: 445px; left: 655px;}
-
-	#section2{height: 900px; background:white;}
-	#section2 div{width:100%;}
-	#section2 h1{font-family: 'Rozha One', serif;
-	font-size: 3.2em; font-weight: 500;
-	text-decoration: underline; color:black;
-	position: absolute; top: 250px; left: 1045px;}
-	#section2 p{width: 310px; text-align: center;
-	font-family: 'Nanum Gothic', sans-serif;
-	font-size: 0.9em; font-weight: 200; line-height: 1.25em;
-	color:black;
-	position: absolute; top: 375px; left: 1005px;}
-
-	#section3{height: 1580px;}
-	.head3 h1{font-family: 'Rozha One', serif;
-	font-size: 3.2em; font-weight: 500;
-	text-decoration: underline; color:white;
-	position: absolute; top: 48px; left: 255px;}
-	.head3 {height: 180px; background-color:#111;}
-	.box1 {float:left; width:360px; height:1400px; background-color:#FFE6E6;}
-	.box1 h1 {width:360px; height:70px; background-color:#FF5500;
-	font-family: 'Rozha One', serif; line-height: 2.6em;
-	font-size: 1.6em; font-weight: 400;
-	text-decoration: underline; color:black; text-align:center}
-
-	.box2 {float:left; width:360px; height:1400px; background-color:#FFFFC2;}
-	.box2 h1 {width:360px; height:70px; background-color:#FFFF00;
-	font-family: 'Rozha One', serif; line-height: 2.6em;
-	font-size: 1.6em; font-weight: 400;
-	text-decoration: underline; color:black; text-align:center}
-
-	.box3 {float:left; width:360px; height:1400px; background-color:#CAF4FF;}
-	.box3 h1 {width:360px; height:70px; background-color:#00CFFF;
-	font-family: 'Rozha One', serif; line-height: 2.6em;
-	font-size: 1.6em; font-weight: 400;
-	text-decoration: underline; color:black; text-align:center}
-	.box4 {float:left; width:360px; height:1400px; background-color:#C7C7FF;}
-	.box4 h1 {width:360px; height:70px; background-color:#641DFF;
-	font-family: 'Rozha One', serif; line-height: 2.6em;
-	font-size: 1.6em; font-weight: 400;
-	text-decoration: underline; color:black; text-align:center}
-
-	.box11 {width:285px;height:1330px; background-color:white;}
-	.box11 h1 {background-color:white; width:285px; height:68px;}
-
-	#image {width:285px;height:245px; padding-bottom:68px;}
-	#image p1{font-family: 'Nanum Gothic', sans-serif;
-	font-size: 1em; font-weight: 700; line-height: 1.25em;
-	text-align:left; padding-left:0.5em; color:white;
-	position:absolute; top:160px;}
-	#image p2{font-family: 'Nanum Gothic', sans-serif;
-	font-size: 1em; font-weight: 200; line-height: 1.7em;
-	text-align:left; padding-left:0.5em; color:white;
-	position:absolute; top:182px;}
-
-	#section4{height: 900px;}
-
-	#section5 {height: 900px;}
-	#section5 p{width: 500px; text-align: center;
-	font-family: 'Nanum Gothic', sans-serif;
-	font-size: 0.9em; font-weight: 200; line-height: 1.25em;
-	color:black;
-	position: absolute; top: 340px; left: 0px;}
-	#section5 h1{font-family: 'Nanum Gothic', sans-serif;
-	font-size: 0.9em; font-weight: 200; line-height: 1.25em;
-	color:black; text-decoration: underline;
-	position: absolute; top: 412px; left: 138px;}
-	#section5 h2{font-family: 'Nanum Gothic', sans-serif;
-	font-size: 0.9em; font-weight: 200; line-height: 1.25em;
-	color:black; text-decoration: underline;
-	position: absolute; top: 412px; left: 240px;}
-	#section5 h3{font-family: 'Nanum Gothic', sans-serif;
-	font-size: 0.9em; font-weight: 200; line-height: 1.25em;
-	color:black; text-decoration: underline;
-	position: absolute; top: 412px; left: 315px;}
-	.cainfoot {background-color:white; width:510px; height:510px;
-	position: absolute; top: 178px; left: 465px;}
-	.logo {width:300px; position: absolute;
-	top:20px; left:100px;}
-
-	#footer{height:180px; font-family: 'Rozha One', serif;
-	font-size: 0.8em; font-weight: 100; color:white;
-	text-align:center;}
-</style>
 <body>
 	<body bgcolor="#000000"> 
 	<header id="header">
